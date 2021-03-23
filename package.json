@@ -1,0 +1,36 @@
+{
+  "name": "next-pwa-poc",
+  "version": "1.0.0",
+  "description": "poc progressive web application with offline support, server side rendering, with installable option and responsiveness",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "deploy": "next build && next export"
+  },
+  "keywords": [],
+  "author": "@rodneyrinaldi",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^4.9.5",
+    "@material-ui/icons": "^4.9.1",
+    "@mdx-js/loader": "^1.5.7",
+    "@next/mdx": "^9.3.0",
+    "@types/js-cookie": "^2.2.6",
+    "isomorphic-unfetch": "^3.0.0",
+    "js-cookie": "^2.2.1",
+    "next": "^10.0.7",
+    "next-pwa": "^2.3.0",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-json-view": "^1.21.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.1",
+    "@types/node": "^13.9.0",
+    "@types/react": "^16.9.23",
+    "typescript": "^3.8.3",
+    "webpack": "^5.24.1"
+  }
+}
