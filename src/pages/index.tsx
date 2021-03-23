@@ -11,7 +11,7 @@ export default () => {
   }
 
   function handleCookie() {
-    Cookies.set('cloudsaude', 'cookie cloudsaude gravado');
+    Cookies.set('cloudsaude', 'cookie cloudsaude gravado', { domain: 'app.cloudsaude.com.br' })
     console.log('cookie cloudsaude gravado')
   }
 
